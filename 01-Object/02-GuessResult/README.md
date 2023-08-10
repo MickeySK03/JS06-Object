@@ -7,8 +7,9 @@ const user = {
 };
 
 user.isActive = false;
-console.log(user); // *
+console.log(user); //* email: 'cc@gmail.com'
+                    // isActive = false
 user = {};
-console.log(user); // **
+console.log(user); // **undefined
 
 ```
