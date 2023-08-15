@@ -8,6 +8,6 @@ function makeUser() {
     ref: this
   };
 }
-let user = makeUser();
-console.log(user.ref.name); // *
+let user = makeUser();// call by window
+console.log(user.ref.name); // *Joe เพราะ
 ```
